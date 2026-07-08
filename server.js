@@ -5,7 +5,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
-const PORT = 3e3;
+const PORT = 10000;
 globalThis.localTickets = [];
 globalThis.localAnnouncements = [];
 var localSettings = {};
