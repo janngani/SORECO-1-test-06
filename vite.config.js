@@ -19,10 +19,8 @@ export default defineConfig(({ mode }) => {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== "true",
-      
-      // 👇 Added your Render URL here
       allowedHosts: [
-        "soreco-1-test-07.onrender.com"
+        "soreco-1-test-08.onrender.com"
       ]
     }
   };
